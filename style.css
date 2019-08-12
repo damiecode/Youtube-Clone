@@ -1,0 +1,47 @@
+body {
+     margin: 0;
+}
+
+.topnav {
+    display: block;
+    padding: 14px 16px;
+}
+
+.search-container{
+    float: right;
+    padding: 14px 16px;
+    box-sizing: border-box;
+}
+.sign-in {
+    float: right;
+    padding: 14px 16px;
+    margin-left: 350px;
+}
+
+.sign-in button{
+     height: 35px;
+     background-color: #2279d3;
+     color: white; 
+     box-sizing: border-box;
+     border-radius: 3px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+input[type="text"] {
+    width: 500px;
+    height: 30px;
+    padding: 7px 7px;
+}
+
+.search-container button {
+    height: 49px;
+    width: 50px;
+    color: grey;
+    background-color: whitesmoke;
+    margin-right: -10px;
+    box-shadow: none;
+}
