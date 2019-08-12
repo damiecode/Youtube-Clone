@@ -1,5 +1,9 @@
 body {
      margin: 0;
+     font-family: 'YouTube Noto',
+     Roboto,
+     arial,
+     sans-serif;
 }
 
 .topnav {
@@ -15,7 +19,7 @@ body {
 .sign-in {
     float: right;
     padding: 14px 16px;
-    margin-left: 350px;
+    margin-left: 150px;
 }
 
 .sign-in button{
@@ -26,13 +30,14 @@ body {
      border-radius: 3px;
 }
 
-img {
+.topnav img {
     width: 80px;
     height: 80px;
+    margin-left: 13px;
 }
 
 input[type="text"] {
-    width: 500px;
+    width: 750px;
     height: 30px;
     padding: 7px 7px;
 }
@@ -42,6 +47,68 @@ input[type="text"] {
     width: 50px;
     color: grey;
     background-color: whitesmoke;
-    margin-right: -10px;
     box-shadow: none;
+}
+
+.title h3 {
+    margin-left: 35px;
+}
+
+video {
+    margin-left: 40px;
+}
+
+.avatar {
+     padding: 10px 0px;
+     position: relative;
+}
+
+.avatar img {
+    width: 48px;
+    height: 48px;
+    margin-left: 35px;
+    margin-right: 15px;
+    cursor: pointer;
+    float:left; 
+}
+
+.avatar button {
+     box-sizing: border-box;
+     height: 24px;
+     width: 130px;
+     display: inline-block;
+     color: white;
+     background-color: red;
+     margin-top: 25px;
+     cursor: pointer;
+     vertical-align: middle;
+     border: 1px solid #ccc;
+     padding: 0px 8px 0px 5.5px;
+}
+
+.avatar p {
+    width: 380px;
+    margin: 0px 0px 0px -130px;
+    white-space: nowrap;
+    display: inline-block;
+    height: 22px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+hr {
+    margin-left: 35px;
+    margin-right: 500px;
+}
+
+.icons {
+    font-weight: 500;
+}
+
+.icons i {
+    margin-left: 35px;
+}
+
+.icons  span{
+    margin-left: 400px;
 }
