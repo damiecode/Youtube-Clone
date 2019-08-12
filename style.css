@@ -109,6 +109,10 @@ hr {
     margin-left: 35px;
 }
 
-.icons  span{
-    margin-left: 400px;
+.icons  .thumb{
+    margin-left: 380px;
+}
+
+i span {
+    margin-left: 10px;
 }
