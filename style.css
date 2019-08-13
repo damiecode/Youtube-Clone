@@ -192,13 +192,10 @@ p.view {
     margin-right: 10px;
 }
 
-ul li {
-    list-style: none;
-}
-li.next {
+.next {
     float: left
 }
 
-li.play {
-    float: right;
+.play {
+    text-align: right;
 }
