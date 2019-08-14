@@ -32,12 +32,15 @@ body {
     padding: 14px 16px;
 }
 
-.topnav .search-container img {
-   height: 49px;
-   width: 50px;
-    margin-left: 40px;
+.topnav .avatars img {
+    height: 70px;
+    width: 70px;
+    margin-right: 50px;
+    margin-top: -85px;
     box-sizing: border-box;
     border-radius: 50px;
+    padding: 10px 10px;
+    float: right;
 }
 
 .topnav img {
@@ -51,8 +54,7 @@ body {
     float: right;
     padding: 14px 16px;
     box-sizing: border-box;
-    margin-right: 40px;
-    margin-top: -15x; 
+    margin-right: 170px;
 }
 
 .search-container button {
@@ -192,13 +194,6 @@ p.view {
     margin-right: 10px;
 }
 
-ul li {
-    list-style: none;
-}
-li.next {
-    float: left
-}
 
-li.play {
-    float: right;
-}
+
+
